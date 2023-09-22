@@ -21,8 +21,24 @@ fibonacci(10); // 55
 
 function fibonacci(n) {
   // Your code here 
-}
+  //base case
+  if(n <= 2) return 1
   
+  // recursive step
+ 
+
+  // recursive case
+  return fibonacci(n - 1) + fibonacci(n - 2)
+}
+3. return 
+2. return fibonacci(3 - 1)              + fibonacci(2 - 2)
+1. return fibonacci(4 -1)               + fibonacci(4 - 2)
+  
+console.log(fibonacci(1)); // 1
+console.log(fibonacci(2)); // 1
+console.log(fibonacci(3)); // 2
+console.log(fibonacci(4)); // 3
+console.log(fibonacci(10)); // 55
 /**************DO NOT MODIFY ANYTHING UNDER THIS LINE*****************/
 module.exports = fibonacci;
   
